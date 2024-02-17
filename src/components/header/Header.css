@@ -1,0 +1,116 @@
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+
+
+.logo{
+    font-size: 35px;
+    margin-left: 25px;
+}
+.logo:hover{
+    color:blue;
+}
+
+
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:green;
+    border-radius: 10px;
+    padding: 10px;
+}
+ .flex nav ul{
+display: flex;
+gap: 10px;
+align-items: center;
+list-style-type: none;
+margin-right: 30px;
+}
+
+ul li a{
+    color: black;
+    text-decoration: none;
+}
+ul li a:hover{
+    color:red;
+}
+.active{
+    padding: 10px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 605px) {
+    .menu{
+        display: block;
+    }
+    .flex nav ul{
+        display: none;
+    }
+    ul{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    ul li{
+        list-style-type: none;
+    }
+    ul a{
+        text-decoration: none;
+    }
+    .flex{
+        padding: 5px;
+    }
+    }

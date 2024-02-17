@@ -1,0 +1,80 @@
+.project-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    align-self: normal;
+    width: 30%;
+    border-radius: 10px;
+    margin: 15px;
+    transition: 0.7 ease;
+    border: 1px solid gray;
+    box-shadow: 0 5px 25px rgba(1 1 1/20%);
+}
+.supImage{
+    width: 100%;
+    height: 250px;
+    position: relative;
+}
+
+ 
+
+.project-card:hover .supImage{
+    opacity: 0.8;
+    
+}
+.project-card:hover{
+   transform: scale(1.1);
+}
+
+
+
+
+
+
+
+ .title{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+}
+.body{
+    margin-left: 5px;
+    margin-bottom: 10px;
+}
+ .btn{
+    display: block;
+    background-color:blue;
+    color: #fff;
+    text-align: center;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: auto;
+
+} 
+
+
+
+
+
+@media screen and (max-width: 1035px){
+    .project-card{
+        width: 40%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+@media screen and (max-width: 620px){
+    .project-card{
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 450px){
+    .project-card{
+        width: 80%;
+    }
+}
+
+
+

@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.border{
+    border:2px solid red;
+}
+
+body{
+    background-color:rgb(206, 169, 206);
+    color: white;
+}
+a{
+    text-decoration: none;
+}
+
+.container{
+    background-color: rebeccapurple;
+    max-width: 1105px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+}
+@media screen and (max-width: 530px){
+    .container{
+        padding: 1px;
+        margin: 1px;
+    }
+}
+
